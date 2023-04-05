@@ -72,6 +72,10 @@ p {
 .col-md-10{
     background-color: white;
 }
+
+#col-md-10{
+  background-color: white;
+}
   
 /* Horizontal scrolling banner from https://blog.hubspot.com/website/scrolling-text-css */
 #scroll-container {
@@ -114,3 +118,4 @@ p {
       -webkit-transform: translateX(-100%);
       transform: translateX(-100%);
     }
+  }
