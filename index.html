@@ -5,86 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-
-    <title>making + breaking</title>
+    <script>script.js</script>
+    <title>i love pasta</title>
 
   </head>
- 
+
   <body class ="overflow-hidden">
-    <div class="page-header">
-      <h1>Pasta I have eaten in NYC</h1>      
+    <div class="page-header" id="scroll-containter">
+      <h1 id="scroll-text" style="font-size: 70px"><b>Pasta I have eaten in NYC</b></h1>      
     </div>
   
 
     <div class="container-fluid mt-3"></div>
     <div class="row">
       <div class="col-md-2 overflow-hidden">
-        <p>I love pasta. Here are some pasta dishes I have eaten in NYC.</p>
+        <p class="left-col">I love pasta. Here are some pasta dishes I have eaten in NYC.</p>
+        <br>
+        <p class="left-col"><b>resturant:</b></p>
+        <p class="left-col"><b>dish:</b></p>
+        <p class="left-col"><b>ingredients:</b></p>
       </div>
       <div class="col-md-10 overflow-scroll">
 
 
         <div class="row">
           <div class="col-md-4">
-            <h3><a href="https://www.supperrestaurant.com/">Supper</a></h3>
-            <h4>Short Rib Tortellini</h4>
-            <p>Tortelloni stuffed with Braised beef short ribs</p></div>
+            <h3 class="info-center"><a href="https://www.supperrestaurant.com/">Supper</a></h3>
+            <h4 class="info-center">Short Rib Tortellini</h4>
+            <p class="info-center">tortelloni stuffed with braised beef short ribs</p></div>
           <div class="col-md-8" id = "inside">
-            <img src="shortrib.png" alt="Short rib tortellini from a resturant called Supper in New York.">
+            <img src="shortrib.png" alt="Short rib tortellini from a resturant called Supper in New York." class="img-center">
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-4">
-            <h3><a href="https://www.fiaschetteriapistoia.com/">FIASCHETTERIA "Pistoia"</a></h3>
-            <h4>PICI FRESCHI CACIO E PEPE</h4>
-            <p>Hand-rolled spaghetti, pecorino, black pepper</p>
+            <h3 class="info-center"><a href="https://www.fiaschetteriapistoia.com/">FIASCHETTERIA "Pistoia"</a></h3>
+            <h4 class="info-center">PICI FRESCHI CACIO E PEPE</h4>
+            <p class="info-center">hand-rolled spaghetti, pecorino, black pepper</p>
           </div>
           <div class="col-md-8" id = "inside">
-            <img src="caciopepe.png" alt="Cacio e pepe from a resturant called FIASCHETTERIA 'Pistoia' in New York.">
+            <img src="caciopepe.png" alt="Cacio e pepe from a resturant called FIASCHETTERIA 'Pistoia' in New York." class="img-center">
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-4">
-            <h3><a href="https://www.formapasta.com">Forma</a></h3>
-            <h4>fettuccine funghi</h4>
-            <p>sautéed wild mushrooms, rosemary & thyme cream sauce, parmigiano reggiano</p></div>
+            <h3 class="info-center"><a href="https://www.formapasta.com">Forma</a></h3>
+            <h4 class="info-center">Fettuccine Funghi</h4>
+            <p class="info-center">sautéed wild mushrooms, rosemary & thyme cream sauce, parmigiano reggiano</p></div>
           <div class="col-md-8" id = "inside">
-            <img src="fungi.png" alt="Fettuccine funghi from a resturant called Forma in New York.">
-          </div>
-        </div>
-
-
-        <div class="row">
-          <div class="col-md-4">
-            <h3><a href="https://www.larinamarket.com">LaRina</a></h3>
-            <h4>Double raviolo</h4>
-            <p>nettle and goat cheese, wild spring onion, fava beans</p></div>
-          <div class="col-md-8" id = "inside">
-            <img src="doubleravioli.png" alt="Short rib tortellini from a resturant called Supper in New York.">
+            <img src="fungi.png" alt="Fettuccine funghi from a resturant called Forma in New York." class="img-center">
           </div>
         </div>
 
 
         <div class="row">
           <div class="col-md-4">
-            <h3><a href="https://www.lilfrankies.com">Lil Frankie's</a></h3>
-            <h4>Spaghetti Limone</h4>
-            <p>Lemon, parmigiano reggiano & butter</p></div>
+            <h3 class="info-center"><a href="https://www.larinamarket.com">LaRina</a></h3>
+            <h4 class="info-center">Double Raviolo</h4>
+            <p class="info-center">nettle and goat cheese, wild spring onion, fava beans</p></div>
           <div class="col-md-8" id = "inside">
-            <img src="limone.png" alt="Short rib tortellini from a resturant called Supper in New York.">
+            <img src="doubleravioli.png" alt="Short rib tortellini from a resturant called Supper in New York." class="img-center">
           </div>
         </div>
 
+
         <div class="row">
           <div class="col-md-4">
-            <h3><a href="https://www.lilfrankies.com">Lil Frankie's</a></h3>
-            <h4>Spaghetti Limone</h4>
-            <p>Lemon, parmigiano reggiano & butter</p></div>
+            <h3 class="info-center"><a href="https://www.lilfrankies.com">Lil Frankie's</a></h3>
+            <h4 class="info-center" >Spaghetti Limone</h4>
+            <p class="info-center">Lemon, parmigiano reggiano & butter</p></div>
           <div class="col-md-8" id = "inside">
-            <img src="limone.png" alt="Short rib tortellini from a resturant called Supper in New York.">
+            <img src="limone.png" alt="Short rib tortellini from a resturant called Supper in New York." class="img-center">
           </div>
+        </div>
+
+        <div class="row page-header">
+          <!-- <div class="col-md-4">
+            <h3 class="info-center"><a href="https://www.lilfrankies.com">Lil Frankie's</a></h3>
+            <h4 class="info-center">Spaghetti Limone</h4>
+            <p class="info-center">Lemon, parmigiano reggiano & butter</p></div>
+          <div class="col-md-8" id = "inside">
+            <img src="limone.png" alt="Short rib tortellini from a resturant called Supper in New York." class="img-center">
+          </div> -->
         </div>
 
       </div>
@@ -93,3 +97,5 @@
   </body>
 </html>
 
+<!-- REFERENCES -->
+ <!-- scroll on part of the screen: https://getbootstrap.com/docs/5.0/utilities/overflow/ -->

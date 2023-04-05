@@ -1,21 +1,116 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+  }
+
+
+  h3{
+   
+  }
+
+  h4{
+  
+  }
+  a{
+    padding: 5px
+  }
+
+  a:link {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: rgb(216, 247, 122);
+  }
+
+  a:hover {
+    background-color: white;
+    color: black;
+  }
+
+
 .page-header{
-    background-color: whitesmoke;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 50px;
 }
+
+
+.info-center{
+    margin-left: 20%;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 50%;
+  }
+.left-col{
+    margin-left: 20%;
+}
+
 .row{
     height: 50%;
 }
 
 .col-md-2{
-    background-color: whitesmoke;
+    background-color: white;
+    padding-left: 20px;
 }
 
 .col-md-4{
-    background-color: whitesmoke;
+    background-color: white;
+    padding-top: 10%;
 }
 .col-md-8{
-    background-color: whitesmoke;
+    background-color: white;
 }
 .col-md-10{
-    background-color: whitesmoke;
+    background-color: white;
 }
   
+/* Horizontal scrolling banner from https://blog.hubspot.com/website/scrolling-text-css */
+#scroll-container {
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  #scroll-text {
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 20s linear infinite;
+    -webkit-animation: my-animation 20s linear infinite;
+    animation: my-animation 20s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
